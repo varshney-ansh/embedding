@@ -1,6 +1,8 @@
 import { MongoClient } from 'mongodb';
 import { getEmbedding } from './get-embeddings.js';
 // import { convertEmbeddingsToBSON } from './convert-embeddings.js';
+import dotenv from 'dotenv';
+dotenv.config();
 
 async function run() {
 
